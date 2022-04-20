@@ -25,7 +25,6 @@
     <main>
 
         <article>
-
             <h2>Sobre</h2>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -42,10 +41,9 @@
                 sint soluta sunt suscipit temporibus tenetur totam 
                 voluptas voluptate voluptates voluptatum.
             </p>
-
         </article>
-        <article>
 
+        <article>
             <h2>Contato</h2>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -62,6 +60,24 @@
                 sint soluta sunt suscipit temporibus tenetur totam 
                 voluptas voluptate voluptates voluptatum.
             </p>
+        </article>
+
+        <article>
+
+            <h2>Fale Conosco</h2>
+
+            <form action="enviar.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
 
         </article>
 
@@ -70,6 +86,7 @@
     <footer>
 
         <p>&copy; Branche - Todos os direitos reservados</p>
+        <a href="#" target="_blank">Documentação</a>
 
     </footer>
 
